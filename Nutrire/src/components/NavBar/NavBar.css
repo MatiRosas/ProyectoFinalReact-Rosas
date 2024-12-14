@@ -1,0 +1,54 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    z-index: 20;
+}
+
+
+.navbar-brand {
+    font-size: 3em;
+    font-family: 'Sour Gummy';
+    transition: 0.5s linear;
+    color: #B3CDA5;
+}
+
+.navbar-brand:hover {
+    font-size: 4em;
+    color: #EDE1A5;
+}
+.Option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    text-decoration: none;
+    color: #EDE1A5;
+    transition: 0.3s linear;
+}
+
+.Option:hover {
+    background-color: #EDE190;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.ActiveOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    text-decoration: none;
+    color: #B3CDA5;
+    transition: 0.3s linear;
+}
+
+.ActiveOption:hover {
+    background-color: #B3CDA5;
+    border-radius: 15px;
+    color: #fff;
+}

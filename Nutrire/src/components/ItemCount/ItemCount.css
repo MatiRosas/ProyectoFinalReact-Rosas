@@ -1,0 +1,20 @@
+    .contain-detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    .contain-detail h1 {
+        display: flex;
+        justify-content: center;
+    }
+    .contain-detail button{
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    }
+
+    .contain-detail button:hover{
+    color: #fff;
+    }
+

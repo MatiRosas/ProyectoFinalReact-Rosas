@@ -1,0 +1,98 @@
+.orden-loading {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.orden-creada {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+    .Checkout {
+    text-align: center;
+    padding: 20px;
+    background-color: #EDE1A5;
+    font-family: 'Sour Gummy';
+    }
+
+    .Checkout h2.text-center {
+    font-size: 2rem;
+    color: #88AF74;
+    margin-bottom: 10px;
+    }
+
+    .Checkout h5 {
+    font-size: 1.2rem;
+    color: #88AF74;
+    margin-bottom: 20px;
+    }
+
+
+    label {
+    display: block;
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 5px;
+    }
+
+
+    input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #495057;
+    outline: none;
+    transition: border-color 0.3s ease;
+    }
+
+    input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+
+    .item-quantity {
+    background-color: #EDE1A5;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    font-family: 'Sour Gummy';
+    }
+
+    .item-quantity header h2.text-center.m-5 {
+    font-size: 1.8rem;
+    color: #88AF74;
+    text-align: center;
+    margin: 0;
+    }
+
+    .item-quantity header h2 span.badge {
+    background-color: #88AF74;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    }
+
+
+    .d-flex.justify-content-center.p-3 button.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    .d-flex.justify-content-center.p-3 button.btn-info:hover {
+    background-color: #138496;
+    }

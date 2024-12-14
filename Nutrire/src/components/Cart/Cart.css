@@ -1,0 +1,37 @@
+.cart-finish{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #88AF74;
+    font-family: 'Sour Gummy';
+
+}
+
+.CardCartItem {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 2%;
+    gap: 10%;
+    margin-bottom: 9%;
+}
+
+.error-cart{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.error-cart2{
+    position: absolute;
+    top: 30%;
+    left: 32%;
+}
+
+.ver-catalogo {
+    text-decoration: none;
+    color: #EDE1A5;
+}
+
+

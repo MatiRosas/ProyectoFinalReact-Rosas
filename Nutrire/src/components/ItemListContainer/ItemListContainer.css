@@ -1,0 +1,61 @@
+    .body-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+    .loader {
+    text-align: center;
+    }
+
+    .loading-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+    }
+
+    .progress-bar {
+    width: 100%;
+    max-width: 300px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    }
+
+    .progress {
+    height: 100%;
+    background-color: #B3CDA5;
+    transition: width 0.3s ease; 
+    }
+
+    .bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 94vh;
+    color: #fff;
+    font-family: 'Sour Gummy';
+    }
+
+    .bienvenida h2 {
+    font-size: 5rem;
+    transition: font-size ease-in .3s;
+    
+    }
+
+    .bienvenida h2:hover{
+    font-size: 6rem;
+    color: #EDE1A5;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        grid-auto-rows: 650px;
+        grid-gap: 30px;
+        font-family: 'Sour Gummy';
+    }

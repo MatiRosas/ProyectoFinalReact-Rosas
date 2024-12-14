@@ -1,0 +1,32 @@
+.body-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader {
+    text-align: center;
+}
+
+.loading-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.progress-bar {
+    width: 100%;
+    max-width: 300px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.progress {
+    height: 100%;
+    background-color: #B3CDA5;
+    transition: width 0.3s ease; 
+}

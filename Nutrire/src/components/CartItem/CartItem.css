@@ -1,0 +1,7 @@
+.CardCartItem, .ContarinerItemCartItem, .ItemFooterCartItem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+

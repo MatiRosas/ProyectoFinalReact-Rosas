@@ -1,0 +1,44 @@
+.detail-product {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    font-family: 'Sour Gummy';
+}
+
+.card-body { 
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    color: #88AF74;
+    background-color: #EDE1A5;
+}
+
+.card-img {
+    height: 74.5vh;
+    width: 45vw;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    color: #fff;
+}
+
+.link-compra {
+    text-decoration: none;
+}
+
+.item-count {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
